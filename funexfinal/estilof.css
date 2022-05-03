@@ -1,0 +1,37 @@
+body{
+    background: rgb(90, 90, 238);
+    font: normal 15pt Arial;
+
+}
+h1{text-align: start;
+    padding: 10px;
+    background: gray;
+    border-radius: 10px;
+    width: 800px;
+    
+}
+h2{
+    text-align: center;
+}
+header{
+    color: white;
+    text-align: center;
+
+}
+section{
+    background: white;
+    border-radius: 10px; 
+    padding: 15px;
+    width: auto;
+    margin: auto;
+    box-shadow: 5px 5px 10px orange;
+
+}
+footer{
+    color: rgb(230, 215, 16);
+    background: gray;
+    text-align: left;
+    width: 170px;
+    font-style: italic;
+
+}

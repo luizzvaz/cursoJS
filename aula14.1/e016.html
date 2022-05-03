@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar</title>
+    <link rel="stylesheet" href="ex016estilo.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Verificador</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="1">
+            </p>
+            <p>sexo :
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="masc">Masculimno</label>
+                <input type='radio' name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificando" onclick="analisar()">
+            </p>
+          
+
+
+        </div>
+        <div> Resultado:
+            <p id="resultado"></p>
+            
+
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy;CursoemVideo</p>
+    </footer>
+    <script src="ex016javascript.js"></script>
+</body>
+</html>

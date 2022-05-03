@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartNoFuturo</title>
+    <style>
+        div {
+            text-align: center;
+            position: relative;
+        }
+        body {/* comentario*/
+            background-color: rgb(194, 231, 133);
+            color: black;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olar, Mundo</h1> <!--comentario -->
+    <p>Já deu certo ihuuu!!!</p>
+    <div>
+    </div>
+    <script>
+        var nome = window.prompt('qual é o seu nome?') // vai pegar o nome 
+        var numero1 =parseInt(window.prompt('Digte um Numero? '))
+        var numero2 = parseInt(window.prompt('digite um Numero'))
+        var s = numero1 + numero2
+        //var s = Number.parseInt(numero1) + Number.parseInt(numero2) ou apenas Number
+        window.alert(`a soma entre ${numero1} e ${numero2} é `+ s)
+        window.alert('é grenda prazer em te conhercer, ' + nome) // juntar usar o +
+    </script>
+</body>
+</html>
